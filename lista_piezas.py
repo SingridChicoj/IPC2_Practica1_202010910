@@ -45,6 +45,8 @@ class lista_piezas:
             if actual.pieza.fila == fila and actual.pieza.columna == columna:
                 actual.pieza.color = color
                 print("Se pintó la pieza con éxito!")
+                print("")
+                print("Tablero Resultante")
                 return
             actual = actual.siguiente
         print("Posición de pieza no encontrada, intente de nuevo!")

@@ -31,8 +31,6 @@ def configuracion_tablero():
         color = input("Color: ")
         print(color, ":")
         mi_tablero.actualizar_pieza(int(fila), int(columna), color)
-        print("")
-        print("")
         mi_tablero.imprimir_tablero_consola()
         # Preguntamos si desea agregar otra pieza
         respuesta = input("Desea agregar otra pieza S/N: ")
@@ -46,6 +44,7 @@ def configuracion_tablero():
     print("")
     print("")
     # Deberiamos graficar
+    print("Generando grafica")
     mi_tablero.graficar()
 
 
